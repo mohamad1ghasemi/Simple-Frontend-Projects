@@ -9,27 +9,57 @@
   <body>
     <main>
       <div class="display">
-        <input type="number" id="result" />
+        <input type="text" id="result" />
       </div>
       <div class="numbers">
-        <input type="button" value="C" class="clear operator" />
-        <input type="button" value="/" class="operator" />
-        <input type="button" value="%" class="operator" />
-        <input type="button" value="*" class="operator" />
-        <input type="button" value="7" class="" />
-        <input type="button" value="8" class="" />
-        <input type="button" value="9" class="" />
-        <input type="button" value="-" class="operator" />
-        <input type="button" value="4" class="" />
-        <input type="button" value="5" class="" />
-        <input type="button" value="6" class="" />
-        <input type="button" value="+" class="operator" />
-        <input type="button" value="1" class="" />
-        <input type="button" value="2" class="" />
-        <input type="button" value="3" class="" />
-        <input type="button" value="=" class="equal" />
-        <input type="button" value="0" class="" />
-        <input type="button" value="." class="" />
+        <input
+          type="button"
+          value="C"
+          class="clear operator"
+          onclick="clearScrean()"
+        />
+        <input
+          type="button"
+          value="/"
+          class="operator"
+          onclick="display('/')"
+        />
+        <input
+          type="button"
+          value="%"
+          class="operator"
+          onclick="display('%')"
+        />
+        <input
+          type="button"
+          value="*"
+          class="operator"
+          onclick="display('*')"
+        />
+        <input type="button" value="7" onclick="display('7')" />
+        <input type="button" value="8" onclick="display('8')" />
+        <input type="button" value="9" onclick="display('9')" />
+        <input
+          type="button"
+          value="-"
+          class="operator"
+          onclick="display('-')"
+        />
+        <input type="button" value="4" onclick="display('4')" />
+        <input type="button" value="5" onclick="display('5')" />
+        <input type="button" value="6" onclick="display('6')" />
+        <input
+          type="button"
+          value="+"
+          class="operator"
+          onclick="display('+')"
+        />
+        <input type="button" value="1" onclick="display('1')" />
+        <input type="button" value="2" onclick="display('2')" />
+        <input type="button" value="3" onclick="display('3')" />
+        <input type="button" value="=" class="equal" onclick="calculate()" />
+        <input type="button" value="0" onclick="display('0')" />
+        <input type="button" value="." onclick="display('.')" />
       </div>
     </main>
     <script src="./app.js"></script>

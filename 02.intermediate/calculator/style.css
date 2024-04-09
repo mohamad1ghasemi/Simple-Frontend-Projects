@@ -44,7 +44,9 @@ main .numbers {
   font-weight: 400;
   font-size: 1rem;
 }
-
+.numbers input:hover {
+  border: 1px solid #fff;
+}
 .numbers .operator {
   background-color: #1d1ace;
 }
