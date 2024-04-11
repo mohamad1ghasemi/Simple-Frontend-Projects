@@ -7,8 +7,26 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div class="gameMenu">
+      <ul>
+        <li><a onclick="gameStart()">Start</a></li>
+        <li><a onclick="restartGame()">Restart</a></li>
+        <li><a onclick="closeTab()">Exit</a></li>
+      </ul>
+    </div>
     <div class="container">
-      <div class="gridTables"></div>
+      <div class="gridTables">
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+        <div class="gridItem" onclick="addItemToTables(this)"></div>
+      </div>
+      <div class="showEnd"></div>
     </div>
     <script src="./app.js"></script>
   </body>
