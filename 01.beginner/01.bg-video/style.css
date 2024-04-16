@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
   font-family: sans-serif;
 }
 .hero {
@@ -37,7 +39,7 @@
   border: 2px solid white;
   padding: 14px 50px;
   margin-top: 20px;
-  trasition: 0.5s;
+  transition: 0.5s;
 }
 
 .content a:hover {

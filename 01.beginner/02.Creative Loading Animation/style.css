@@ -17,7 +17,6 @@ body {
 .wrapper .loader {
   display: flex;
   justify-content: space-evenly;
-  padding: 0 20px;
 }
 
 .loader .loading {

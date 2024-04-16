@@ -21,7 +21,6 @@ a {
   position: relative;
   overflow: hidden;
   transition: all 1s;
-  
 }
 
 a::before {
