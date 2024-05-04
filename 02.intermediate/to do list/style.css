@@ -1,154 +1,81 @@
-@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon:XROT@5&display=swap");
-
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: linear-gradient(#344080, #13265afd);
-  color: white;
-  font-family: "Tilt Neon", sans-serif;
-  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #444;
+  color: #fff;
 }
 
-header {
-  font-size: 2rem;
+nav {
+  background-color: #333;
+  padding: 10px;
 }
 
-header,
-form {
-  min-height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: ;
 }
 
-form input,
-form button {
-  padding: 0.5rem;
-  padding-left: 1rem;
-  font-size: 1.8rem;
-  border: none;
-  background: white;
-  border-radius: 2rem;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-form button {
-  color: rgb(255, 200, 0);
-  background: white;
-  cursor: pointer;
-  transition: all 0.3 ease;
-  margin-left: 0.5rem;
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #555;
 }
 
-form button:hover {
-  color: white;
-  background: rgb(255, 200, 0);
-}
-
-.fa-plus-circle {
-  margin-top: 0.3rem;
-  margin-left: -8px;
+nav ul li a:hover {
+  background-color: #777;
 }
 
 .todo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #555;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.todo-list {
-  min-width: 30%;
+input[type="text"] {
+  padding: 10px;
+  width: calc(100% - 85px); /* 70% از عرض کلی - 15px حاشیه مورد نیاز */
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+ul {
   list-style: none;
+  padding: 0;
 }
 
-.todo {
-  margin: 0.5rem;
-  padding-left: 0.5rem;
-  background: white;
-  color: black;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
-  border-radius: 2rem;
-}
-
-.todo li {
-  flex: 1;
-}
-
-.trash-btn,
-.complete-btn {
-  color: white;
-  border: none;
-  padding: 1rem;
-  cursor: pointer;
-  font-size: 1.5rem;
-}
-
-.complete-btn {
-  background: rgb(255, 200, 0);
-}
-
-.trash-btn {
-  border-top-right-radius: 1.75rem;
-  border-bottom-right-radius: 1.75rem;
-  background: rgb(171, 171, 171);
-}
-
-.todo-item {
-  padding: 0rem 0.5rem;
-}
-
-.fa-trash,
-.fa-check-circle {
-  pointer-events: none;
+li {
+  margin-bottom: 10px;
 }
 
 .completed {
   text-decoration: line-through;
-  opacity: 0.5;
 }
-
-.slide {
-  transform: translateX(10rem);
-  opacity: 0;
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  outline: none;
-  border: none;
-}
-
-.select {
-  margin: 1rem;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50px;
-}
-
-select {
-  color: rgb(255, 200, 0);
-  width: 10rem;
-  height: 3.2rem;
+button {
+  padding: 10px 20px;
   cursor: pointer;
-  padding: 1rem;
+  background: linear-gradient(to bottom, #ff0000, #000000);
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem; /* فاصله بین دکمه‌ها */
+  color: #fff;
 }
-
-.select::after {
-  content: "\25BC";
-  position: absolute;
-  background: rgb(255, 200, 0);
-  top: 0;
-  right: 0;
-  padding: 1rem;
-  pointer-events: none;
-  transition: all 0.3s ease;
+button:hover {
+  background: linear-gradient(to bottom, #ff0000, #000000);
+  color: #fff;
 }
