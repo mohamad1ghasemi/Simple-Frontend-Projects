@@ -1,2 +1,2 @@
 ## Front End Simple Projects
-This section is my level 1 projects
+This section is my simple projects
