@@ -48,7 +48,7 @@ nav ul li a:hover {
 
 input[type="text"] {
   padding: 10px;
-  width: calc(100% - 85px); /* 70% از عرض کلی - 15px حاشیه مورد نیاز */
+  width: calc(100% - 85px);
   margin-right: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -67,15 +67,16 @@ li {
   text-decoration: line-through;
 }
 button {
+  margin: 0.3rem;
   padding: 10px 20px;
   cursor: pointer;
-  background: linear-gradient(to bottom, #ff0000, #000000);
+  background: linear-gradient(to bottom, #1b385a, #000000);
   border: none;
   border-radius: 5px;
-  margin-right: 0.5rem; /* فاصله بین دکمه‌ها */
+  margin-right: 0.5rem;
   color: #fff;
 }
 button:hover {
-  background: linear-gradient(to bottom, #ff0000, #000000);
+  background: linear-gradient(to bottom, #1b385a, #000000);
   color: #fff;
 }

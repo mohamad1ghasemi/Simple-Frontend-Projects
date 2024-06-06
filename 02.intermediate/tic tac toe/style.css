@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   z-index: 2;
+  color: #fff;
 }
 .gridTables {
   display: grid;
@@ -23,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: cadetblue;
+  background-color: #344364;
   font-size: 6rem;
   text-align: center;
   border: 1px solid #222;
@@ -72,6 +73,6 @@
 }
 
 .gameMenu ul li:hover {
-  background: linear-gradient(#3367d8, #83bef5);
+  background: linear-gradient(#344364, #969696);
   color: #fff;
 }

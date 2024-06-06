@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  font-size: 1.25rem;
 }
 
 body {
@@ -11,11 +12,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: #424242;
 }
 main {
   width: 30rem;
-  background: #424242;
+  background: #6584ac;
 }
 
 main .display input {
@@ -48,8 +49,8 @@ main .numbers {
   border: 1px solid #fff;
 }
 .numbers .operator {
-  background-color: #1d1ace;
+  background-color: #4442be;
 }
 .numbers .equal {
-  background-color: #b46710;
+  background-color: #64944e;
 }
